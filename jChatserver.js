@@ -1,9 +1,10 @@
-/**
- * Create a stripped websocket-server using the sample code from:
- * https://github.com/Worlize/WebSocket-Node#server-example
- * 
- */
- 
+//Config:
+var port = 1337
+
+//--------------------------------
+
+
+
 function User(connection, name, age, sex, location, status)
 {
 	this.connection=connection;
@@ -37,8 +38,8 @@ User.prototype = {
   setStatus:  function (status) {  this.status=status; }
 }
  
-var port = 1337,
-users = [],
+
+var users = [];
 something20 = [],
 something30 = [],
 something40 = [];
