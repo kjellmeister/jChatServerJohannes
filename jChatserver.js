@@ -1,5 +1,5 @@
 //Config:
-var port = 1337
+var port = 1337;
 
 //--------------------------------
 
@@ -39,7 +39,7 @@ User.prototype = {
 }
  
 
-var users = [];
+var users = [],
 something20 = [],
 something30 = [],
 something40 = [];
